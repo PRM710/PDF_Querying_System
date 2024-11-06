@@ -78,7 +78,7 @@ To start the application, follow these steps:
 2. In another terminal, start the React frontend:
 
     ```bash
-    npm run
+    npm start/run
     ```
 
 3. Open the link provided in the terminal, or wait for it to open automatically in the browser.
