@@ -12,7 +12,7 @@ from flask_cors import CORS
 load_dotenv()
 
 app = Flask(__name__)
-CORS(app, resources={r"/*": {"origins": "http://localhost:3000"}})
+CORS(app, origins=["https://prmquerying.netlify.app"])
 
 # Get AWS credentials from environment variables
 BUCKET_NAME = 'prakashprm'
