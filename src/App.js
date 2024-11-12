@@ -89,7 +89,7 @@ function App() {
     return (
         <div className="container">
             {/* Logo Section */}
-            <img src={`${process.env.PUBLIC_URL}/aiplanet.png`} alt="Logo" className="logo-image" />
+            <img src={`${process.env.PUBLIC_URL}/prm.png`} alt="Logo" className="logo-image" />
 
             <div className="upload-section">
                 <input
